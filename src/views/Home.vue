@@ -20,7 +20,6 @@ export default {
   },
   mounted: function() {
     this.url = this.$route.query.url
-    console.log(this.url)
   },
 }
 </script>
