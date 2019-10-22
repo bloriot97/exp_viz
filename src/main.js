@@ -5,7 +5,8 @@ import VTooltip from 'v-tooltip'
 
 Vue.config.productionTip = false
 
-Vue.use(VTooltip)
+
+Vue.use(VTooltip);
 
 new Vue({
   router,
