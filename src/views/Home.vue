@@ -1,25 +1,21 @@
 <template>
-  <div class="home">
-    <ExperimentReport v-if="url" :url="url"/>
-  </div>
+    <div class="home">
+        <h1>This is an home page</h1>
+        <ResultList/>
+    </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import ExperimentReport from '@/components/ExperimentReport.vue'
+    import ResultList from '@/components/ResultList.vue'
 
-export default {
-  name: 'home',
-  data() {
-    return {
-      url: null,
+    export default {
+        name: "Home",
+        components: {
+            ResultList
+        },
     }
-  },
-  components: {
-    ExperimentReport
-  },
-  mounted: function() {
-    this.url = this.$route.query.url
-  },
-}
 </script>
+
+<style scoped>
+
+</style>
