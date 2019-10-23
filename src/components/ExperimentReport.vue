@@ -22,7 +22,9 @@
                     v-bind:key="typeCount.tool"
                 >
                     <td>
-                        {{typeCount.tool}}
+                        <span>
+                            {{typeCount.tool}}
+                        </span>
                     </td>
                     <td
                         v-for="repairType in repairTypes"
