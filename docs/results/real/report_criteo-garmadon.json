@@ -28,6 +28,28 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
                 }
             ],
+            "styler": [
+                {
+                    "line": "43",
+                    "severity": "error",
+                    "message": "Line is longer than 160 characters (found 178).",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+                },
+                {
+                    "line": "43",
+                    "column": "156",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "44",
+                    "column": "10",
+                    "severity": "error",
+                    "message": "';' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                }
+            ],
             "styler_random": [
                 {
                     "line": "43",
@@ -95,6 +117,7 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
                 }
             ],
+            "styler": null,
             "styler_random": null,
             "styler_three_grams": null
         }
@@ -136,6 +159,7 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.SingleSpaceSeparatorCheck"
                 }
             ],
+            "styler": [],
             "styler_random": [],
             "styler_three_grams": [
                 {
@@ -219,6 +243,14 @@
                 }
             ],
             "intellij": [
+                {
+                    "line": "73",
+                    "severity": "error",
+                    "message": "Line is longer than 160 characters (found 321).",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+                }
+            ],
+            "styler": [
                 {
                     "line": "73",
                     "severity": "error",
@@ -377,6 +409,433 @@
                     "severity": "error",
                     "message": "Line is longer than 160 characters (found 164).",
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+                }
+            ],
+            "styler": [
+                {
+                    "line": "384",
+                    "severity": "error",
+                    "message": "'CTOR_DEF' should be separated from previous statement.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"
+                },
+                {
+                    "line": "384",
+                    "severity": "error",
+                    "message": "Line is longer than 160 characters (found 247).",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+                },
+                {
+                    "line": "384",
+                    "column": "87",
+                    "severity": "error",
+                    "message": "';' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "384",
+                    "column": "88",
+                    "severity": "error",
+                    "message": "'}' is not preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+                },
+                {
+                    "line": "384",
+                    "column": "97",
+                    "severity": "error",
+                    "message": "'<' is followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"
+                },
+                {
+                    "line": "384",
+                    "column": "97",
+                    "severity": "error",
+                    "message": "'<' is not preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"
+                },
+                {
+                    "line": "384",
+                    "column": "114",
+                    "severity": "error",
+                    "message": "'>' is followed by an illegal character.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"
+                },
+                {
+                    "line": "384",
+                    "column": "137",
+                    "severity": "error",
+                    "message": "'(' is preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"
+                },
+                {
+                    "line": "384",
+                    "column": "144",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "384",
+                    "column": "150",
+                    "severity": "error",
+                    "message": "'<' is followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"
+                },
+                {
+                    "line": "384",
+                    "column": "161",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "384",
+                    "column": "161",
+                    "severity": "error",
+                    "message": "',' is preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+                },
+                {
+                    "line": "384",
+                    "column": "171",
+                    "severity": "error",
+                    "message": "'<' is preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"
+                },
+                {
+                    "line": "385",
+                    "severity": "error",
+                    "message": "'ctor def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "386",
+                    "severity": "error",
+                    "message": "'ctor def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "389",
+                    "severity": "error",
+                    "message": "'ctor def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "390",
+                    "severity": "error",
+                    "message": "'ctor def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "392",
+                    "severity": "error",
+                    "message": "'method call rparen' has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "393",
+                    "severity": "error",
+                    "message": "'ctor def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "394",
+                    "severity": "error",
+                    "message": "'ctor def rcurly' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "396",
+                    "severity": "error",
+                    "message": "'method def modifier' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "397",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "401",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "402",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "403",
+                    "severity": "error",
+                    "message": "'method def rcurly' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "405",
+                    "severity": "error",
+                    "message": "'method def modifier' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "407",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "409",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "410",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "412",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "413",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "415",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "419",
+                    "severity": "error",
+                    "message": "'for' has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "420",
+                    "severity": "error",
+                    "message": "'for' child has incorrect indentation level 16, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "421",
+                    "severity": "error",
+                    "message": "'for rcurly' has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "422",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "424",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "425",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "426",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "427",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "429",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "430",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "432",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "433",
+                    "severity": "error",
+                    "message": "'while' has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "434",
+                    "severity": "error",
+                    "message": "'while' child has incorrect indentation level 16, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "435",
+                    "severity": "error",
+                    "message": "'while' child has incorrect indentation level 16, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "436",
+                    "severity": "error",
+                    "message": "'while rcurly' has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "438",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "439",
+                    "severity": "error",
+                    "message": "'method def rcurly' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "441",
+                    "severity": "error",
+                    "message": "'method def modifier' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "442",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "443",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "444",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "445",
+                    "severity": "error",
+                    "message": "'method def rcurly' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "447",
+                    "severity": "error",
+                    "message": "'method def modifier' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "448",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "449",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "450",
+                    "severity": "error",
+                    "message": "'while' has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "451",
+                    "severity": "error",
+                    "message": "'while' child has incorrect indentation level 16, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "452",
+                    "severity": "error",
+                    "message": "'while rcurly' has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "453",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "454",
+                    "severity": "error",
+                    "message": "'method def rcurly' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "456",
+                    "severity": "error",
+                    "message": "'method def modifier' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "457",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "458",
+                    "severity": "error",
+                    "message": "'method def rcurly' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "460",
+                    "severity": "error",
+                    "message": "'method def modifier' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "461",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "462",
+                    "severity": "error",
+                    "message": "'method def rcurly' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "464",
+                    "severity": "error",
+                    "message": "'class def rcurly' has incorrect indentation level 4, expected level should be 0.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
                 }
             ],
             "styler_random": null,
@@ -875,6 +1334,15 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
                 }
             ],
+            "styler": [
+                {
+                    "line": "55",
+                    "column": "78",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                }
+            ],
             "styler_random": [
                 {
                     "line": "55",
@@ -992,6 +1460,7 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"
                 }
             ],
+            "styler": [],
             "styler_random": [],
             "styler_three_grams": []
         }
@@ -1042,6 +1511,77 @@
                     "severity": "error",
                     "message": "Line is longer than 160 characters (found 174).",
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+                }
+            ],
+            "styler": [
+                {
+                    "line": "48",
+                    "severity": "error",
+                    "message": "Line is longer than 160 characters (found 179).",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+                },
+                {
+                    "line": "48",
+                    "column": "55",
+                    "severity": "error",
+                    "message": "'(' is preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"
+                },
+                {
+                    "line": "48",
+                    "column": "79",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "48",
+                    "column": "79",
+                    "severity": "error",
+                    "message": "',' is preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+                },
+                {
+                    "line": "48",
+                    "column": "103",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "48",
+                    "column": "103",
+                    "severity": "error",
+                    "message": "',' is preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+                },
+                {
+                    "line": "48",
+                    "column": "124",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "48",
+                    "column": "124",
+                    "severity": "error",
+                    "message": "',' is preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+                },
+                {
+                    "line": "48",
+                    "column": "152",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "48",
+                    "column": "152",
+                    "severity": "error",
+                    "message": "',' is preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
                 }
             ],
             "styler_random": [
@@ -1273,6 +1813,7 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
                 }
             ],
+            "styler": [],
             "styler_random": [],
             "styler_three_grams": [
                 {
@@ -1316,6 +1857,7 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
                 }
             ],
+            "styler": [],
             "styler_random": [],
             "styler_three_grams": []
         }
@@ -1378,6 +1920,15 @@
                     "severity": "error",
                     "message": "Line is longer than 160 characters (found 164).",
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+                }
+            ],
+            "styler": [
+                {
+                    "line": "53",
+                    "column": "78",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
                 }
             ],
             "styler_random": [
@@ -1448,6 +1999,43 @@
                     "severity": "error",
                     "message": "Line is longer than 160 characters (found 161).",
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+                }
+            ],
+            "styler": [
+                {
+                    "line": "62",
+                    "column": "27",
+                    "severity": "error",
+                    "message": "'(' is followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"
+                },
+                {
+                    "line": "62",
+                    "column": "27",
+                    "severity": "error",
+                    "message": "'(' is preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"
+                },
+                {
+                    "line": "63",
+                    "column": "11",
+                    "severity": "error",
+                    "message": "'.' is followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceAfterCheck"
+                },
+                {
+                    "line": "63",
+                    "column": "22",
+                    "severity": "error",
+                    "message": "'(' is preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"
+                },
+                {
+                    "line": "63",
+                    "column": "33",
+                    "severity": "error",
+                    "message": "Only one statement per line allowed.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck"
                 }
             ],
             "styler_random": [
@@ -1871,6 +2459,15 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
                 }
             ],
+            "styler": [
+                {
+                    "line": "55",
+                    "column": "78",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                }
+            ],
             "styler_random": [
                 {
                     "line": "55",
@@ -1928,6 +2525,7 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
                 }
             ],
+            "styler": [],
             "styler_random": [],
             "styler_three_grams": []
         }
@@ -1972,6 +2570,317 @@
                     "severity": "error",
                     "message": "Line is longer than 160 characters (found 235).",
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+                }
+            ],
+            "styler": [
+                {
+                    "line": "58",
+                    "severity": "error",
+                    "message": "Line is longer than 160 characters (found 232).",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+                },
+                {
+                    "line": "58",
+                    "column": "185",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "58",
+                    "column": "211",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "58",
+                    "column": "232",
+                    "severity": "error",
+                    "message": "'{' is not preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+                },
+                {
+                    "line": "59",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 4, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "61",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 4, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "62",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 4, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "63",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 4, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "68",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 4, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "70",
+                    "severity": "error",
+                    "message": "'try' has incorrect indentation level 4, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "71",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "72",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "75",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "77",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "78",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "79",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "80",
+                    "severity": "error",
+                    "message": "'method call' child has incorrect indentation level 12, expected level should be 16.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "81",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "82",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "83",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "84",
+                    "severity": "error",
+                    "message": "'method call' child has incorrect indentation level 12, expected level should be 16.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "85",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "86",
+                    "severity": "error",
+                    "message": "'method call' child has incorrect indentation level 12, expected level should be 16.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "88",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "89",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "90",
+                    "severity": "error",
+                    "message": "'method call' child has incorrect indentation level 12, expected level should be 16.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "92",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "93",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "94",
+                    "severity": "error",
+                    "message": "'method call' child has incorrect indentation level 12, expected level should be 16.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "96",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "98",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "100",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "101",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "102",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "103",
+                    "severity": "error",
+                    "message": "'method call' child has incorrect indentation level 12, expected level should be 16.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "104",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "105",
+                    "severity": "error",
+                    "message": "'method call' child has incorrect indentation level 12, expected level should be 16.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "106",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "107",
+                    "severity": "error",
+                    "message": "'method call' child has incorrect indentation level 12, expected level should be 16.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "108",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "109",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "110",
+                    "severity": "error",
+                    "message": "'method call' child has incorrect indentation level 12, expected level should be 16.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "111",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "112",
+                    "severity": "error",
+                    "message": "'method call' child has incorrect indentation level 12, expected level should be 16.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "113",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "115",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "116",
+                    "severity": "error",
+                    "message": "'try' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "118",
+                    "severity": "error",
+                    "message": "'try rcurly' has incorrect indentation level 4, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "119",
+                    "severity": "error",
+                    "message": "'finally' child has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "120",
+                    "severity": "error",
+                    "message": "'finally rcurly' has incorrect indentation level 4, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "121",
+                    "severity": "error",
+                    "message": "'method def rcurly' has incorrect indentation level 0, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
                 }
             ],
             "styler_random": [
@@ -2648,6 +3557,32 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
                 }
             ],
+            "styler": [
+                {
+                    "line": "82",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 4, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "84",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 4, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "86",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 4, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "87",
+                    "severity": "error",
+                    "message": "'method def rcurly' has incorrect indentation level 0, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                }
+            ],
             "styler_random": [
                 {
                     "line": "82",
@@ -2817,6 +3752,433 @@
                     "severity": "error",
                     "message": "Line is longer than 160 characters (found 164).",
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+                }
+            ],
+            "styler": [
+                {
+                    "line": "383",
+                    "severity": "error",
+                    "message": "'CTOR_DEF' should be separated from previous statement.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"
+                },
+                {
+                    "line": "383",
+                    "severity": "error",
+                    "message": "Line is longer than 160 characters (found 247).",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+                },
+                {
+                    "line": "383",
+                    "column": "87",
+                    "severity": "error",
+                    "message": "';' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "383",
+                    "column": "88",
+                    "severity": "error",
+                    "message": "'}' is not preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+                },
+                {
+                    "line": "383",
+                    "column": "97",
+                    "severity": "error",
+                    "message": "'<' is followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"
+                },
+                {
+                    "line": "383",
+                    "column": "97",
+                    "severity": "error",
+                    "message": "'<' is not preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"
+                },
+                {
+                    "line": "383",
+                    "column": "114",
+                    "severity": "error",
+                    "message": "'>' is followed by an illegal character.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"
+                },
+                {
+                    "line": "383",
+                    "column": "137",
+                    "severity": "error",
+                    "message": "'(' is preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.MethodParamPadCheck"
+                },
+                {
+                    "line": "383",
+                    "column": "144",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "383",
+                    "column": "150",
+                    "severity": "error",
+                    "message": "'<' is followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"
+                },
+                {
+                    "line": "383",
+                    "column": "161",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "383",
+                    "column": "161",
+                    "severity": "error",
+                    "message": "',' is preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+                },
+                {
+                    "line": "383",
+                    "column": "171",
+                    "severity": "error",
+                    "message": "'<' is preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.GenericWhitespaceCheck"
+                },
+                {
+                    "line": "384",
+                    "severity": "error",
+                    "message": "'ctor def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "385",
+                    "severity": "error",
+                    "message": "'ctor def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "388",
+                    "severity": "error",
+                    "message": "'ctor def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "389",
+                    "severity": "error",
+                    "message": "'ctor def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "391",
+                    "severity": "error",
+                    "message": "'method call rparen' has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "392",
+                    "severity": "error",
+                    "message": "'ctor def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "393",
+                    "severity": "error",
+                    "message": "'ctor def rcurly' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "395",
+                    "severity": "error",
+                    "message": "'method def modifier' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "396",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "400",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "401",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "402",
+                    "severity": "error",
+                    "message": "'method def rcurly' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "404",
+                    "severity": "error",
+                    "message": "'method def modifier' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "406",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "408",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "409",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "411",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "412",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "414",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "418",
+                    "severity": "error",
+                    "message": "'for' has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "419",
+                    "severity": "error",
+                    "message": "'for' child has incorrect indentation level 16, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "420",
+                    "severity": "error",
+                    "message": "'for rcurly' has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "421",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "423",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "424",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "425",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "426",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "428",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "429",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "431",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "432",
+                    "severity": "error",
+                    "message": "'while' has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "433",
+                    "severity": "error",
+                    "message": "'while' child has incorrect indentation level 16, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "434",
+                    "severity": "error",
+                    "message": "'while' child has incorrect indentation level 16, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "435",
+                    "severity": "error",
+                    "message": "'while rcurly' has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "437",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "438",
+                    "severity": "error",
+                    "message": "'method def rcurly' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "440",
+                    "severity": "error",
+                    "message": "'method def modifier' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "441",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "442",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "443",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "444",
+                    "severity": "error",
+                    "message": "'method def rcurly' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "446",
+                    "severity": "error",
+                    "message": "'method def modifier' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "447",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "448",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "449",
+                    "severity": "error",
+                    "message": "'while' has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "450",
+                    "severity": "error",
+                    "message": "'while' child has incorrect indentation level 16, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "451",
+                    "severity": "error",
+                    "message": "'while rcurly' has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "452",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "453",
+                    "severity": "error",
+                    "message": "'method def rcurly' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "455",
+                    "severity": "error",
+                    "message": "'method def modifier' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "456",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "457",
+                    "severity": "error",
+                    "message": "'method def rcurly' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "459",
+                    "severity": "error",
+                    "message": "'method def modifier' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "460",
+                    "severity": "error",
+                    "message": "'method def' child has incorrect indentation level 12, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "461",
+                    "severity": "error",
+                    "message": "'method def rcurly' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "463",
+                    "severity": "error",
+                    "message": "'class def rcurly' has incorrect indentation level 4, expected level should be 0.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
                 }
             ],
             "styler_random": null,
@@ -3278,6 +4640,28 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
                 }
             ],
+            "styler": [
+                {
+                    "line": "43",
+                    "severity": "error",
+                    "message": "Line is longer than 160 characters (found 180).",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+                },
+                {
+                    "line": "43",
+                    "column": "158",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "44",
+                    "column": "10",
+                    "severity": "error",
+                    "message": "';' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                }
+            ],
             "styler_random": [
                 {
                     "line": "43",
@@ -3349,6 +4733,63 @@
                     "severity": "error",
                     "message": "Line is longer than 160 characters (found 174).",
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+                }
+            ],
+            "styler": [
+                {
+                    "line": "49",
+                    "column": "74",
+                    "severity": "error",
+                    "message": "',' is preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
+                },
+                {
+                    "line": "50",
+                    "column": "31",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "50",
+                    "column": "51",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "50",
+                    "column": "78",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "51",
+                    "severity": "error",
+                    "message": "'method def lcurly' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "51",
+                    "column": "9",
+                    "severity": "error",
+                    "message": "'{' at column 9 should be on the previous line.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+                },
+                {
+                    "line": "51",
+                    "column": "9",
+                    "severity": "error",
+                    "message": "'{' at column 9 should have line break after.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"
+                },
+                {
+                    "line": "51",
+                    "column": "9",
+                    "severity": "error",
+                    "message": "'{' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
                 }
             ],
             "styler_random": [
@@ -3505,6 +4946,7 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.NoWhitespaceBeforeCheck"
                 }
             ],
+            "styler": [],
             "styler_random": [],
             "styler_three_grams": [
                 {
@@ -3705,6 +5147,14 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"
                 }
             ],
+            "styler": [
+                {
+                    "line": "30",
+                    "severity": "error",
+                    "message": "',' should be separated from previous statement.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"
+                }
+            ],
             "styler_random": [
                 {
                     "line": "30",
@@ -3808,6 +5258,47 @@
                     "severity": "error",
                     "message": "Line is longer than 160 characters (found 167).",
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+                }
+            ],
+            "styler": [
+                {
+                    "line": "22",
+                    "column": "149",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "23",
+                    "severity": "error",
+                    "message": "'.' has incorrect indentation level 8, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "23",
+                    "column": "21",
+                    "severity": "error",
+                    "message": "';' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                },
+                {
+                    "line": "23",
+                    "column": "22",
+                    "severity": "error",
+                    "message": "'}' is not preceded with whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
+                },
+                {
+                    "line": "24",
+                    "severity": "error",
+                    "message": "'CLASS_DEF' should be separated from previous statement.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"
+                },
+                {
+                    "line": "24",
+                    "severity": "error",
+                    "message": "'class def modifier' has incorrect indentation level 8, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
                 }
             ],
             "styler_random": [
@@ -4001,6 +5492,15 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
                 }
             ],
+            "styler": [
+                {
+                    "line": "55",
+                    "column": "78",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                }
+            ],
             "styler_random": [
                 {
                     "line": "55",
@@ -4090,6 +5590,7 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"
                 }
             ],
+            "styler": [],
             "styler_random": [
                 {
                     "line": "146",
@@ -4231,6 +5732,15 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
                 }
             ],
+            "styler": [
+                {
+                    "line": "53",
+                    "column": "78",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                }
+            ],
             "styler_random": [
                 {
                     "line": "53",
@@ -4289,6 +5799,7 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"
                 }
             ],
+            "styler": [],
             "styler_random": [],
             "styler_three_grams": [
                 {
@@ -4349,6 +5860,44 @@
                     "severity": "error",
                     "message": "'}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally).",
                     "source": "com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"
+                }
+            ],
+            "styler": [
+                {
+                    "line": "95",
+                    "severity": "error",
+                    "message": "'for rcurly' has incorrect indentation level 20, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "96",
+                    "severity": "error",
+                    "message": "'try rcurly' has incorrect indentation level 16, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "97",
+                    "severity": "error",
+                    "message": "'finally' child has incorrect indentation level 20, expected level should be 12.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "98",
+                    "severity": "error",
+                    "message": "'finally rcurly' has incorrect indentation level 16, expected level should be 8.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "99",
+                    "severity": "error",
+                    "message": "'method def rcurly' has incorrect indentation level 12, expected level should be 4.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
+                },
+                {
+                    "line": "100",
+                    "severity": "error",
+                    "message": "'class def rcurly' has incorrect indentation level 8, expected level should be 0.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"
                 }
             ],
             "styler_random": [
@@ -4530,6 +6079,15 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
                 }
             ],
+            "styler": [
+                {
+                    "line": "55",
+                    "column": "78",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
+                }
+            ],
             "styler_random": [
                 {
                     "line": "55",
@@ -4605,6 +6163,7 @@
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
                 }
             ],
+            "styler": null,
             "styler_random": null,
             "styler_three_grams": null
         }
@@ -4673,6 +6232,15 @@
                     "severity": "error",
                     "message": "Line is longer than 160 characters (found 164).",
                     "source": "com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"
+                }
+            ],
+            "styler": [
+                {
+                    "line": "55",
+                    "column": "78",
+                    "severity": "error",
+                    "message": "',' is not followed by whitespace.",
+                    "source": "com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"
                 }
             ],
             "styler_random": [

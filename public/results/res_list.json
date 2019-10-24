@@ -2,6 +2,7 @@
   "real": {
     "AddstarMC-Minigames": "report_AddstarMC-Minigames.json",
     "criteo-garmadon": "report_criteo-garmadon.json",
-    "HL7-DaVinci-CRD": ,report_HL7-DaVinci-CRD.json"
+    "HL7-DaVinci-CRD": "report_HL7-DaVinci-CRD.json",
+    "aliyun-beta-aliyun-oss-hadoop-fs": "report_aliyun-beta-aliyun-oss-hadoop-fs.json"
   }
 }
