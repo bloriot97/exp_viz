@@ -1,6 +1,7 @@
 {
   "real": {
     "AddstarMC-Minigames": "report_AddstarMC-Minigames.json",
-    "criteo-garmadon": "report_criteo-garmadon.json"
+    "criteo-garmadon": "report_criteo-garmadon.json",
+    "HL7-DaVinci-CRD": ,report_HL7-DaVinci-CRD.json"
   }
 }
